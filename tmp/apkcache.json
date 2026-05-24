@@ -1,6 +1,136 @@
 {
   "METADATA_VERSION": 20002,
   "allow_disabled_algorithms": false,
+  "SoundCloud-v2026.05.15-release-patches-v1.32.1-dev.1.apk": {
+    "hash": "c34808d856cc0dbd5209713e5f7fbb612986bb2ed1dce205448872babf88f01c",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.READ_PHONE_STATE",
+        null
+      ],
+      [
+        "android.permission.GET_ACCOUNTS",
+        22
+      ],
+      [
+        "android.permission.USE_CREDENTIALS",
+        null
+      ],
+      [
+        "android.permission.READ_SYNC_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.WRITE_SYNC_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.DETECT_SCREEN_CAPTURE",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "com.google.android.gms.permission.AD_ID",
+        null
+      ],
+      [
+        "com.android.vending.BILLING",
+        null
+      ],
+      [
+        "android.permission.ACCESS_ADSERVICES_AD_ID",
+        null
+      ],
+      [
+        "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_ADSERVICES_TOPICS",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "com.soundcloud.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        null
+      ],
+      [
+        "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+        null
+      ],
+      [
+        "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ]
+    ],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": [],
+    "packageName": "com.soundcloud.android",
+    "versionCode": 355060,
+    "name": "SoundCloud",
+    "versionName": "2026.05.15-release",
+    "minSdkVersion": 29,
+    "targetSdkVersion": 36,
+    "nativecode": [
+      "arm64-v8a"
+    ],
+    "sig": "411b965af016ed0c9bfd9d3b047714fc",
+    "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
+    "size": 49790429,
+    "apkName": "SoundCloud-v2026.05.15-release-patches-v1.32.1-dev.1.apk",
+    "added": 1779659529.740996
+  },
   "YouTube-v21.21.80-patches-v1.29.1-dev.1.apk": {
     "hash": "28d3dd28a09d07e4d76d317f8662fce322dd378fc29368c6ad863203059f3e38",
     "hashType": "sha256",
@@ -232,7 +362,7 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 101900485,
     "apkName": "YouTube-v21.21.80-patches-v1.29.1-dev.1.apk",
-    "added": 1779658621.580223
+    "added": 1779659534.482349
   },
   "YouTube_Music-v9.19.50-patches-v1.29.1-dev.1.apk": {
     "hash": "4b0f243045206a340f9a859ac91247f598f6686d8b9319f338facac5baaf39f4",
@@ -398,7 +528,7 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 78840041,
     "apkName": "YouTube_Music-v9.19.50-patches-v1.29.1-dev.1.apk",
-    "added": 1779658624.136624
+    "added": 1779659536.988574
   },
   "placeholder": {
     "name": "placeholder",
@@ -410,6 +540,6 @@
     "versionName": "01ba471",
     "packageName": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
     "size": 1,
-    "added": 1779658624.137495
+    "added": 1779659536.989365
   }
 }
