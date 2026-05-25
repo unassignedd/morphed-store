@@ -1,6 +1,110 @@
 {
   "METADATA_VERSION": 20002,
   "allow_disabled_algorithms": false,
+  "AdGuard-v4.12.81-patches-v1.26.0.apk": {
+    "hash": "bc61670c65fc8316131cd22c2a90bc734478e83730f416fd4c252de0c0642ad2",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.INTERACT_ACROSS_USERS",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_CONNECT",
+        null
+      ],
+      [
+        "android.permission.PACKAGE_USAGE_STATS",
+        null
+      ],
+      [
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+        null
+      ],
+      [
+        "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+        null
+      ],
+      [
+        "android.permission.QUERY_ALL_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": [],
+    "packageName": "com.adguard.android",
+    "versionCode": 10304530,
+    "name": "AdGuard",
+    "versionName": "4.12.81",
+    "minSdkVersion": 28,
+    "targetSdkVersion": 34,
+    "nativecode": [
+      "arm64-v8a",
+      "armeabi-v7a",
+      "x86",
+      "x86_64"
+    ],
+    "sig": "411b965af016ed0c9bfd9d3b047714fc",
+    "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
+    "size": 62173266,
+    "apkName": "AdGuard-v4.12.81-patches-v1.26.0.apk",
+    "added": 1779667315.962567
+  },
   "SoundCloud-v2026.05.15-release-patches-v1.32.1-dev.1.apk": {
     "hash": "c34808d856cc0dbd5209713e5f7fbb612986bb2ed1dce205448872babf88f01c",
     "hashType": "sha256",
@@ -129,7 +233,7 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 49790429,
     "apkName": "SoundCloud-v2026.05.15-release-patches-v1.32.1-dev.1.apk",
-    "added": 1779667020.418824
+    "added": 1779667317.043679
   },
   "YouTube-v21.21.80-patches-v1.29.1-dev.1.apk": {
     "hash": "28d3dd28a09d07e4d76d317f8662fce322dd378fc29368c6ad863203059f3e38",
@@ -362,7 +466,7 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 101900485,
     "apkName": "YouTube-v21.21.80-patches-v1.29.1-dev.1.apk",
-    "added": 1779667025.222502
+    "added": 1779667321.653758
   },
   "YouTube_Music-v9.19.50-patches-v1.29.1-dev.1.apk": {
     "hash": "4b0f243045206a340f9a859ac91247f598f6686d8b9319f338facac5baaf39f4",
@@ -528,6 +632,6 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 78840041,
     "apkName": "YouTube_Music-v9.19.50-patches-v1.29.1-dev.1.apk",
-    "added": 1779667027.744616
+    "added": 1779667324.159382
   }
 }
