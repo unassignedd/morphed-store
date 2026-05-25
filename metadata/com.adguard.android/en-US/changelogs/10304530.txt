@@ -1,3 +1,2 @@
-### Mi változott ebben a verzióban (10304530):
-- Első patch funkció hozzáadva
-- Ide jönnek a frissítési infók külön ehhez a verzióhoz geci xd
+### 4.12.81 (10304530):
+- Initial release

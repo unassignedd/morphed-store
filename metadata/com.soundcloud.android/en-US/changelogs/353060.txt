@@ -1,3 +1,2 @@
-### Mi változott ebben a verzióban (353060):
-- Első patch funkció hozzáadva
-- Ide jönnek a frissítési infók külön ehhez a verzióhoz geci xd
+### 2026.04.30-release (353060):
+- Initial release

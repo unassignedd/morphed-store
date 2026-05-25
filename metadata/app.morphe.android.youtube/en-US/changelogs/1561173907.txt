@@ -1,3 +1,2 @@
-### Mi változott ebben a verzióban (1561173907):
-- Első patch funkció hozzáadva
-- Ide jönnek a frissítési infók külön ehhez a verzióhoz geci xd
+### 21.21.80 (1561173907):
+- Initial release

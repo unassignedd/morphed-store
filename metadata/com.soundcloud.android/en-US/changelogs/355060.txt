@@ -1,3 +1,2 @@
-### Mi változott ebben a verzióban (355060):
-- Első patch funkció hozzáadva
-- Ide jönnek a frissítési infók külön ehhez a verzióhoz geci xd
+### 2026.05.15-release (355060):
+- Initial release

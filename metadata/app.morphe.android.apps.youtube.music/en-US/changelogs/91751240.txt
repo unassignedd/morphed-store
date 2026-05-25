@@ -1,3 +1,2 @@
-### Mi változott ebben a verzióban (91751240):
-- Első patch funkció hozzáadva
-- Ide jönnek a frissítési infók külön ehhez a verzióhoz geci xd
+### 9.17.51 (91751240):
+- Initial release
