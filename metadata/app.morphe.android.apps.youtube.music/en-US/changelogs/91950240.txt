@@ -1,0 +1,3 @@
+### Mi változott ebben a verzióban (91950240):
+- Első patch funkció hozzáadva
+- Ide jönnek a frissítési infók külön ehhez a verzióhoz geci xd

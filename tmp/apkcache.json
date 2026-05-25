@@ -103,7 +103,7 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 62173266,
     "apkName": "AdGuard-v4.12.81-patches-v1.26.0.apk",
-    "added": 1779669527.867431
+    "added": 1779670198.788793
   },
   "SoundCloud-v2026.05.15-release-patches-v1.32.1-dev.1.apk": {
     "hash": "c34808d856cc0dbd5209713e5f7fbb612986bb2ed1dce205448872babf88f01c",
@@ -233,7 +233,7 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 49790429,
     "apkName": "SoundCloud-v2026.05.15-release-patches-v1.32.1-dev.1.apk",
-    "added": 1779669528.729662
+    "added": 1779670199.851559
   },
   "YouTube-v21.21.80-patches-v1.29.1-dev.1.apk": {
     "hash": "28d3dd28a09d07e4d76d317f8662fce322dd378fc29368c6ad863203059f3e38",
@@ -466,7 +466,339 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 101900485,
     "apkName": "YouTube-v21.21.80-patches-v1.29.1-dev.1.apk",
-    "added": 1779669532.681211
+    "added": 1779670204.47593
+  },
+  "YouTube_Music-v9.16.51-patches-v1.25.0-dev.9.apk": {
+    "hash": "2134cf3fe26951a3945e5313df78faa936247871625217ebd52038f142f1888c",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH",
+        30
+      ],
+      [
+        "android.permission.BLUETOOTH_ADMIN",
+        30
+      ],
+      [
+        "android.permission.BLUETOOTH_SCAN",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_ADVERTISE",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_CONNECT",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.NFC",
+        null
+      ],
+      [
+        "android.permission.READ_MEDIA_IMAGES",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.READ_MEDIA_AUDIO",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        30
+      ],
+      [
+        "com.google.android.gms.permission.AD_ID",
+        null
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "app.revanced.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "com.google.android.providers.gsf.permission.READ_GSERVICES",
+        null
+      ],
+      [
+        "android.permission.GET_ACCOUNTS",
+        22
+      ],
+      [
+        "android.permission.MANAGE_ACCOUNTS",
+        22
+      ],
+      [
+        "android.permission.USE_CREDENTIALS",
+        22
+      ],
+      [
+        "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+        null
+      ],
+      [
+        "android.permission.RUN_USER_INITIATED_JOBS",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "app.morphe.android.apps.youtube.music.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "com.android.vending.BILLING",
+        null
+      ],
+      [
+        "android.permission.REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        30
+      ]
+    ],
+    "uses-permission-sdk-23": [
+      [
+        "android.permission.RECORD_AUDIO",
+        null
+      ]
+    ],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": [],
+    "packageName": "app.morphe.android.apps.youtube.music",
+    "versionCode": 91651240,
+    "name": "YouTube Music",
+    "versionName": "9.16.51",
+    "minSdkVersion": 26,
+    "targetSdkVersion": 36,
+    "nativecode": [
+      "arm64-v8a"
+    ],
+    "sig": "411b965af016ed0c9bfd9d3b047714fc",
+    "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
+    "size": 78454183,
+    "apkName": "YouTube_Music-v9.16.51-patches-v1.25.0-dev.9.apk",
+    "added": 1779670207.017359
+  },
+  "YouTube_Music-v9.17.51-patches-v1.25.0.apk": {
+    "hash": "f1728b5066585d31effbdd837d4c5644bf84162e3571e9d5be6c7df4aff3d430",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH",
+        30
+      ],
+      [
+        "android.permission.BLUETOOTH_ADMIN",
+        30
+      ],
+      [
+        "android.permission.BLUETOOTH_SCAN",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_ADVERTISE",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_CONNECT",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.NFC",
+        null
+      ],
+      [
+        "android.permission.READ_MEDIA_IMAGES",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.READ_MEDIA_AUDIO",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        30
+      ],
+      [
+        "com.google.android.gms.permission.AD_ID",
+        null
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "app.revanced.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "com.google.android.providers.gsf.permission.READ_GSERVICES",
+        null
+      ],
+      [
+        "android.permission.GET_ACCOUNTS",
+        22
+      ],
+      [
+        "android.permission.MANAGE_ACCOUNTS",
+        22
+      ],
+      [
+        "android.permission.USE_CREDENTIALS",
+        22
+      ],
+      [
+        "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+        null
+      ],
+      [
+        "android.permission.RUN_USER_INITIATED_JOBS",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "app.morphe.android.apps.youtube.music.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "com.android.vending.BILLING",
+        null
+      ],
+      [
+        "android.permission.REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        30
+      ]
+    ],
+    "uses-permission-sdk-23": [
+      [
+        "android.permission.RECORD_AUDIO",
+        null
+      ]
+    ],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": [],
+    "packageName": "app.morphe.android.apps.youtube.music",
+    "versionCode": 91751240,
+    "name": "YouTube Music",
+    "versionName": "9.17.51",
+    "minSdkVersion": 26,
+    "targetSdkVersion": 36,
+    "nativecode": [
+      "arm64-v8a"
+    ],
+    "sig": "411b965af016ed0c9bfd9d3b047714fc",
+    "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
+    "size": 78724433,
+    "apkName": "YouTube_Music-v9.17.51-patches-v1.25.0.apk",
+    "added": 1779670209.519368
   },
   "YouTube_Music-v9.19.50-patches-v1.29.1-dev.1.apk": {
     "hash": "4b0f243045206a340f9a859ac91247f598f6686d8b9319f338facac5baaf39f4",
@@ -632,6 +964,6 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 78840041,
     "apkName": "YouTube_Music-v9.19.50-patches-v1.29.1-dev.1.apk",
-    "added": 1779669534.796111
+    "added": 1779670212.172461
   }
 }
