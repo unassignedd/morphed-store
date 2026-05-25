@@ -103,7 +103,7 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 62173266,
     "apkName": "AdGuard-v4.12.81-patches-v1.26.0.apk",
-    "added": 1779667315.962567
+    "added": 1779669527.867431
   },
   "SoundCloud-v2026.05.15-release-patches-v1.32.1-dev.1.apk": {
     "hash": "c34808d856cc0dbd5209713e5f7fbb612986bb2ed1dce205448872babf88f01c",
@@ -233,7 +233,7 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 49790429,
     "apkName": "SoundCloud-v2026.05.15-release-patches-v1.32.1-dev.1.apk",
-    "added": 1779667317.043679
+    "added": 1779669528.729662
   },
   "YouTube-v21.21.80-patches-v1.29.1-dev.1.apk": {
     "hash": "28d3dd28a09d07e4d76d317f8662fce322dd378fc29368c6ad863203059f3e38",
@@ -466,7 +466,7 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 101900485,
     "apkName": "YouTube-v21.21.80-patches-v1.29.1-dev.1.apk",
-    "added": 1779667321.653758
+    "added": 1779669532.681211
   },
   "YouTube_Music-v9.19.50-patches-v1.29.1-dev.1.apk": {
     "hash": "4b0f243045206a340f9a859ac91247f598f6686d8b9319f338facac5baaf39f4",
@@ -632,6 +632,6 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 78840041,
     "apkName": "YouTube_Music-v9.19.50-patches-v1.29.1-dev.1.apk",
-    "added": 1779667324.159382
+    "added": 1779669534.796111
   }
 }
