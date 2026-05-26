@@ -1,12 +1,13 @@
-Summary: 'Soundcloud Go+ (Premium)'
+Summary: 'SoundCloud Go+ (Premium)'
 Description: |
-  Soundcloud - with AMOLED theme
+  The ultimate SoundCloud experience featuring a full aesthetic overhaul and complete premium feature access.
   
-  SOUNDCLOUD Go+ features:
+  **Current modifications added:**
   
-  - Unlock premium Go+ tracks (basically everything)
-  - Upgrade your DJ sets with exclusive app integrations (who cares tf is this)
-  - Listen without ads (no ads whatsoever)
-  - Save tracks to listen offline — anywhere, anytime (basically downloads enabled)
+  - **AMOLED dark theme:** Replaces the standard dark mode with a pure, pitch-black background optimized for AMOLED screens. Saves battery and looks clean as hell.
+  - **Enable SoundCloud Go:** Unlocks premium SoundCloud Go features. This allows you to stream exclusive Go+ tracks, listen completely ad-free, save tracks for offline playback anytime, and utilize advanced app integrations.
+  - **Disable telemetry:** Strips out built-in data tracking, analytics, and telemetry to protect your privacy and reduce background data usage.
+  
+  *SoundCloud with actual freedom. Stream everything, skip the garbage, fuck trackers and ads.*
 AuthorName: 'hubexd'
 SourceCode: 'https://github.com/unassignedd/morphed-store'

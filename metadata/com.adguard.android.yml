@@ -1,8 +1,13 @@
 Summary: 'AdGuard Premium'
 Description: |
-  One (if not the best) Adblocker with cusromizeable filters
+  Without a doubt, one of the best (if not the absolute best) system-wide adblockers available, packed with highly customizable filters.
   
-  AdGuard Content Blocker is a free Android app that blocks ads on your device without root permissions
-  - Basically use this app and forget ads like from everywhere
+  AdGuard protects your privacy and completely blocks intrusive ads across your entire device without requiring any root permissions.
+  
+  **Current modification added:**
+  
+  - **Enable Premium:** Unlocks all premium features, enabling advanced tracking protection, custom filter subscriptions, security filters, and enhanced cosmetic filtering.
+  
+  *Basically, just turn this app on and forget ads even exist.*
 AuthorName: 'hubexd'
 SourceCode: 'https://github.com/unassignedd/morphed-store'
