@@ -2,32 +2,32 @@ Summary: 'YouTube Music Premium'
 Description: |
   This mod comes with a dedicated settings menu, allowing you to configure everything to your exact liking.
 
-  <i>YouTube Music as it should be — still better than Spotify. Fuck Google.</i>
+  <i>YouTube Music as it should be — still better than Spotify. Still fuck Google.</i>
 
   <b>Current modifications added</b> (22 patches to be exact, less than what the YouTube app has, but still gl in reading):
 
-  - <b>Bypass certificate checks:</b> Bypasses certificate checks which prevent YouTube Music from working on Android Auto.
-  - <b>Change header:</b> Adds an option to change the header logo in the top-left corner of the app.
-  - <b>Change miniplayer color:</b> Adds an option to change the miniplayer background color to match the fullscreen player.
-  - <b>Change start page:</b> Adds an option to set which page the app opens to instead of the default homepage.
-  - <b>Check watch history domain name resolution:</b> Checks if the device DNS server is preventing user watch history from being saved.
-  - <b>Disable DRC audio:</b> Adds an option to disable DRC (Dynamic Range Compression) audio.
-  - <b>Disable QUIC protocol:</b> Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.
-  - <b>Enable exclusive audio playback:</b> Enables the option to play audio without loading the video track.
-  - <b>Enable forced miniplayer:</b> Adds an option to force the miniplayer when switching between music videos, podcasts, or songs.
-  - <b>Force original audio:</b> Adds an option to always use the original, untouched audio track.
-  - <b>GmsCore support:</b> Allows the app to work without root by using a different package name when patched using GmsCore instead of Google Play Services.
-  - <b>Hide ads:</b> Adds options to hide annoying ads, such as the fullscreen Premium popups and the "Get Music Premium" label.
-  - <b>Hide buttons:</b> Adds options to hide the cast, history, notification, and search buttons.
-  - <b>Hide category bar:</b> Adds an option to hide the category bar at the top of the homepage.
-  - <b>Hide music video ads:</b> Adds an option to hide ads that appear while listening to or streaming music videos, podcasts, or songs.
-  - <b>Miniplayer previous and next buttons:</b> Adds options to show previous and next track buttons directly in the miniplayer.
-  - <b>Navigation bar:</b> Adds options to hide the navigation bar, labels, and individual buttons.
-  - <b>Override certificate pinning:</b> Overrides SSL certificate pinning to allow network traffic interception and custom security certificates.
-  - <b>Permanent repeat:</b> Adds an option to always repeat the current track/playlist even if it ends or another track is played.
-  - <b>Remove background playback restrictions:</b> Removes restrictions on background playback, including playing kids' videos in the background.
-  - <b>Sanitize sharing links:</b> Removes tracking query parameters from shared links.
-  - <b>Spoof video streams:</b> Adds options to spoof the client video streams to fix playback buffering issues.
-  - <b>Theme:</b> AMOLED Theme - Pure Pitch Black background.
+  - <b>Bypass certificate checks:</b> <i>Bypasses certificate checks which prevent YouTube Music from working on Android Auto.</i>
+  - <b>Change header:</b> <i>Adds an option to change the header logo in the top-left corner of the app.</i>
+  - <b>Change miniplayer color:</b> <i>Adds an option to change the miniplayer background color to match the fullscreen player.</i>
+  - <b>Change start page:</b> <i>Adds an option to set which page the app opens to instead of the default homepage.</i>
+  - <b>Check watch history domain name resolution:</b> <i>Checks if the device DNS server is preventing user watch history from being saved.</i>
+  - <b>Disable DRC audio:</b> <i>Adds an option to disable DRC (Dynamic Range Compression) audio.</i>
+  - <b>Disable QUIC protocol:</b> <i>Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.</i>
+  - <b>Enable exclusive audio playback:</b> <i>Enables the option to play audio without loading the video track.</i>
+  - <b>Enable forced miniplayer:</b> <i>Adds an option to force the miniplayer when switching between music videos, podcasts, or songs.</i>
+  - <b>Force original audio:</b> <i>Adds an option to always use the original, untouched audio track.</i>
+  - <b>GmsCore support:</b> <i>Allows the app to work without root by using a different package name when patched using GmsCore instead of Google Play Services.</i>
+  - <b>Hide ads:</b> <i>Adds options to hide annoying ads, such as the fullscreen Premium popups and the "Get Music Premium" label.</i>
+  - <b>Hide buttons:</b> <i>Adds options to hide the cast, history, notification, and search buttons.</i>
+  - <b>Hide category bar:</b> <i>Adds an option to hide the category bar at the top of the homepage.</i>
+  - <b>Hide music video ads:</b> <i>Adds an option to hide ads that appear while listening to or streaming music videos, podcasts, or songs.</i>
+  - <b>Miniplayer previous and next buttons:</b> <i>Adds options to show previous and next track buttons directly in the miniplayer.</i>
+  - <b>Navigation bar:</b> <i>Adds options to hide the navigation bar, labels, and individual buttons.</i>
+  - <b>Override certificate pinning:</b> <i>Overrides SSL certificate pinning to allow network traffic interception and custom security certificates.</i>
+  - <b>Permanent repeat:</b> <i>Adds an option to always repeat the current track/playlist even if it ends or another track is played.</i>
+  - <b>Remove background playback restrictions:</b> <i>Removes restrictions on background playback, including playing kids' videos in the background.</i>
+  - <b>Sanitize sharing links:</b> <i>Removes tracking query parameters from shared links.</i>
+  - <b>Spoof video streams:</b> <i>Adds options to spoof the client video streams to fix playback buffering issues.</i>
+  - <b>Theme:</b> <i>AMOLED Theme - Pure Pitch Black background.</i>
 AuthorName: 'hubexd'
 SourceCode: 'https://github.com/unassignedd/morphed-store'

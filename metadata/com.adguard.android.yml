@@ -1,13 +1,13 @@
 Summary: 'AdGuard Premium'
 Description: |
   Without a doubt, one of the best (if not the absolute best) system-wide adblockers available, packed with highly customizable filters.
-  
+
   AdGuard protects your privacy and completely blocks intrusive ads across your entire device without requiring any root permissions.
-  
-  **Current modification added:**
-  
-  - **Enable Premium:** Unlocks all premium features, enabling advanced tracking protection, custom filter subscriptions, security filters, and enhanced cosmetic filtering.
-  
-  *Basically, just turn this app on and forget ads even exist.*
+
+  <i>Basically, just turn this app on and forget ads even exist.</i>
+
+  <b>Current modification added:</b>
+
+  - <b>Enable Premium:</b> <i>Unlocks all premium features, enabling advanced tracking protection, custom filter subscriptions, security filters, and enhanced cosmetic filtering.</i>
 AuthorName: 'hubexd'
 SourceCode: 'https://github.com/unassignedd/morphed-store'

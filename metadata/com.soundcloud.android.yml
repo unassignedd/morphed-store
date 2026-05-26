@@ -1,13 +1,14 @@
 Summary: 'SoundCloud Go+ (Premium)'
 Description: |
   The ultimate SoundCloud experience featuring a full aesthetic overhaul and complete premium feature access.
-  
-  **Current modifications added:**
-  
-  - **AMOLED dark theme:** Replaces the standard dark mode with a pure, pitch-black background optimized for AMOLED screens. Saves battery and looks clean as hell.
-  - **Enable SoundCloud Go:** Unlocks premium SoundCloud Go features. This allows you to stream exclusive Go+ tracks, listen completely ad-free, save tracks for offline playback anytime, and utilize advanced app integrations.
-  - **Disable telemetry:** Strips out built-in data tracking, analytics, and telemetry to protect your privacy and reduce background data usage.
-  
-  *SoundCloud with actual freedom. Stream everything, skip the garbage, fuck trackers and ads.*
+
+  <i>SoundCloud with actual freedom. Stream everything, skip the garbage, fuck trackers and ads.</i>
+
+  <b>Current modifications added:</b>
+
+  - <b>AMOLED dark theme:</b> <i>Replaces the standard dark mode with a pure, pitch-black background optimized for AMOLED screens. Saves battery and looks clean as hell.</i>
+  - <b>Disable telemetry:</b> <i>Strips out built-in data tracking, analytics, and telemetry to protect your privacy and reduce background data usage.</i>
+  - <b>Enable SoundCloud Go:</b> <i>Unlocks premium SoundCloud Go features. This allows you to stream exclusive Go+ tracks, listen completely ad-free, save tracks for offline playback anytime, and utilize advanced app integrations.</i>
+  - <b>Override certificate pinning:</b> <i>Overrides certificate pinning, allowing you to inspect traffic via a proxy.</i>
 AuthorName: 'hubexd'
 SourceCode: 'https://github.com/unassignedd/morphed-store'
