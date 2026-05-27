@@ -1,5 +1,11 @@
-Summary: 'Placeholder Summary for com.facebook.orca vro 🥀'
+Summary: 'Messenger (Chat Heads)'
 Description: |
-  Ez az alkalmazás állandó, hosszú leírása geci xd.
+  The standard Facebook Messenger experience, enhanced with the return of its most iconic layout feature.
+
+  <i>Fuck the glitchy Android system bubbles. Bring back the legendary floating chat heads with full overlay freedom.</i>
+
+  <b>Current modification added:</b>
+
+  - <b>Restore Chat Heads:</b> <i>Integrates a local LSPosed framework utilizing ChatHeadEnabler. Adds a dedicated toggle directly inside the Messenger settings menu, allowing you to bypass the native Android Bubbles API and force the classic, seamless floating chat heads.</i>
 AuthorName: 'hubexd'
 SourceCode: 'https://github.com/unassignedd/morphed-store'
