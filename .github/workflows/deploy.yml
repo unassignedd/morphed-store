@@ -29,14 +29,25 @@ jobs:
 
       - name: Unpack Repo Content to Root
         run: |
-          # 1. Letakarítjuk a biztonság kedvéért a régi mappákat
-          rm -rf icons metadata repo tmp
+          # 1. Letakarítjuk a régi struktúrát a biztonság kedvéért, nem hagyunk szemetet
+          rm -rf repo
           
-          # 2. Közvetlenül a gyökérbe csomagolunk ki, levágva a belső "repo/" konténert!
-          tar -xzf repo.tar.gz --strip-components=1
+          # 2. Közvetlenül kibontjuk a tarballt a gyökérbe. 
+          # Mivel a morphed-src most már eleve a 'repo' mappát csomagolja be, ez pont a helyére rak mindent!
+          tar -xzf repo.tar.gz
           
-          # 3. Csak a letöltött archívumot kell eltüntetni, másolgatás és ütközés kilőve!
+          # 3. Töröljük a felesleges, már kibontott archívumot
           rm -f repo.tar.gz
+
+      - name: Verify Structure
+        run: |
+          echo "=== JELENLEGI REPO MAPPA TARTALMA ==="
+          if [ -d "repo" ]; then
+            ls -la repo
+          else
+            echo "HIBA: A repo mappa nem található a gyökérben! Valami elszállt a kibontásnál."
+            exit 1
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
