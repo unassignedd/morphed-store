@@ -22,21 +22,24 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
+      - name: Hard Clean Workspace
+        run: |
+          # Előre megsemmisítünk minden esetleges szemetet a futtató környezetben, ami nem a kód része
+          rm -rf repo icons metadata *.apk tmp
+          # Létrehozunk egy üres .nojekyll-t, hogy a GitHub Pages ne barmolja szét az F-Droid struktúrát
+          touch .nojekyll
+
       - name: Download Built Repo from Private Release
         env:
-          GH_TOKEN: ${{ secrets.PAT_TOKEN }} # Ide is kell a PAT token a Secrets-ből, hogy lássa a privát repót!
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }} # Ide jön a PAT, hogy lássa a privát cuccot
         run: gh release download store-apks -p "repo.tar.gz" --repo unassignedd/morphed-src --clobber
 
       - name: Unpack Repo Content to Root
         run: |
-          # 1. Letakarítjuk a régi struktúrát a biztonság kedvéért, nem hagyunk szemetet
-          rm -rf repo
-          
-          # 2. Közvetlenül kibontjuk a tarballt a gyökérbe. 
-          # Mivel a morphed-src most már eleve a 'repo' mappát csomagolja be, ez pont a helyére rak mindent!
+          # Kibontjuk a friss, ropogós csomagot közvetlenül a gyökérbe
           tar -xzf repo.tar.gz
           
-          # 3. Töröljük a felesleges, már kibontott archívumot
+          # Az archívumot azonnal elégetjük, ne foglalja a helyet
           rm -f repo.tar.gz
 
       - name: Verify Structure
@@ -55,6 +58,7 @@ jobs:
       - name: Upload Pages Artifact (NO SIZE LIMIT!)
         uses: actions/upload-pages-artifact@v3
         with:
+          # A teljes gyökeret feltölti, de mivel felül le lett takarítva, CSAK a repo mappa és a .nojekyll marad ott!
           path: '.'
 
       - name: Deploy to GitHub Pages
