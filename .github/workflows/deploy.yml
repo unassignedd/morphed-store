@@ -29,17 +29,14 @@ jobs:
 
       - name: Unpack Repo Content to Root
         run: |
-          # 1. Brutálisan letöröljük a régi ütköző mappákat, hogy az mv ne kapjon tőlük agyfaszt
+          # 1. Letakarítjuk a biztonság kedvéért a régi mappákat
           rm -rf icons metadata repo tmp
           
-          # 2. Kicsomagoljuk a friss csomagot a privátból
-          tar -xzf repo.tar.gz
+          # 2. Közvetlenül a gyökérbe csomagolunk ki, levágva a belső "repo/" konténert!
+          tar -xzf repo.tar.gz --strip-components=1
           
-          # 3. Így, hogy tiszta a terep, az mv már csont nélkül átpakol mindent a gyökérbe!
-          mv repo/* .
-          
-          # 4. Felporszívózunk magunk után
-          rm -rf repo repo.tar.gz
+          # 3. Csak a letöltött archívumot kell eltüntetni, másolgatás és ütközés kilőve!
+          rm -f repo.tar.gz
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
