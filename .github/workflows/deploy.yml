@@ -1,0 +1,46 @@
+name: Deploy Public Store
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Download Built Repo from Private Release
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }} # Ide is kell a PAT token a Secrets-ből, hogy lássa a privát repót!
+        run: gh release download store-apks -p "repo.tar.gz" --repo unassignedd/morphed-src --clobber
+
+      - name: Unpack Repo Content to Root
+        run: |
+          tar -xzf repo.tar.gz
+          mv repo/* .
+          rm -rf repo repo.tar.gz
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages Artifact (NO SIZE LIMIT!)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
