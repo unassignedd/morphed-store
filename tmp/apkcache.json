@@ -103,7 +103,7 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 62173266,
     "apkName": "AdGuard-v4.12.81-patches-v1.26.0.apk",
-    "added": 1779844587.574286
+    "added": 1779863649.39364
   },
   "Messenger-v560.0.0.55.69.apk": {
     "hash": "25e6480375814cf5954fcaf31b34c748df558c329904455e2683271cfd2e5c71",
@@ -485,389 +485,7 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 88944165,
     "apkName": "Messenger-v560.0.0.55.69.apk",
-    "added": 1779844589.503792
-  },
-  "Messenger-v562.0.0.53.83.apk": {
-    "hash": "183a33e9ef49ce508dda9528760e2654bb513f8988d9bf351c94587b7e8d19e0",
-    "hashType": "sha256",
-    "uses-permission": [
-      [
-        "android.permission.READ_MEDIA_AUDIO",
-        null
-      ],
-      [
-        "android.permission.READ_MEDIA_VIDEO",
-        null
-      ],
-      [
-        "android.permission.READ_MEDIA_IMAGES",
-        null
-      ],
-      [
-        "com.facebook.katana.provider.ACCESS",
-        null
-      ],
-      [
-        "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
-        null
-      ],
-      [
-        "android.permission.POST_NOTIFICATIONS",
-        null
-      ],
-      [
-        "android.permission.SCHEDULE_EXACT_ALARM",
-        null
-      ],
-      [
-        "android.permission.INTERNET",
-        null
-      ],
-      [
-        "android.permission.GET_ACCOUNTS",
-        null
-      ],
-      [
-        "android.permission.ACCESS_NETWORK_STATE",
-        null
-      ],
-      [
-        "android.permission.WAKE_LOCK",
-        null
-      ],
-      [
-        "android.permission.VIBRATE",
-        null
-      ],
-      [
-        "android.permission.READ_CONTACTS",
-        null
-      ],
-      [
-        "android.permission.READ_PROFILE",
-        null
-      ],
-      [
-        "android.permission.WRITE_EXTERNAL_STORAGE",
-        null
-      ],
-      [
-        "android.permission.READ_PHONE_NUMBERS",
-        null
-      ],
-      [
-        "android.permission.ACCESS_WIFI_STATE",
-        null
-      ],
-      [
-        "android.permission.RECEIVE_BOOT_COMPLETED",
-        null
-      ],
-      [
-        "android.permission.READ_SYNC_SETTINGS",
-        null
-      ],
-      [
-        "android.permission.CHANGE_NETWORK_STATE",
-        null
-      ],
-      [
-        "android.permission.RECORD_AUDIO",
-        null
-      ],
-      [
-        "android.permission.SYSTEM_ALERT_WINDOW",
-        null
-      ],
-      [
-        "android.permission.CALL_PHONE",
-        null
-      ],
-      [
-        "android.permission.MODIFY_AUDIO_SETTINGS",
-        null
-      ],
-      [
-        "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
-        null
-      ],
-      [
-        "android.permission.AUTHENTICATE_ACCOUNTS",
-        null
-      ],
-      [
-        "android.permission.MANAGE_ACCOUNTS",
-        null
-      ],
-      [
-        "android.permission.WRITE_CONTACTS",
-        null
-      ],
-      [
-        "android.permission.WRITE_SYNC_SETTINGS",
-        null
-      ],
-      [
-        "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
-        null
-      ],
-      [
-        "com.google.android.gms.permission.AD_ID",
-        null
-      ],
-      [
-        "android.permission.BLUETOOTH",
-        30
-      ],
-      [
-        "android.permission.NFC",
-        null
-      ],
-      [
-        "com.oculus.permission.REPORT_EVENTS",
-        null
-      ],
-      [
-        "com.oculus.permission.REPORT_EVENTS_DEBUG",
-        null
-      ],
-      [
-        "com.facebook.orca.provider.ACCESS",
-        null
-      ],
-      [
-        "com.facebook.permission.prod.FB_APP_COMMUNICATION",
-        null
-      ],
-      [
-        "com.facebook.mlite.provider.ACCESS",
-        null
-      ],
-      [
-        "android.permission.CAMERA",
-        null
-      ],
-      [
-        "android.permission.ACCESS_FINE_LOCATION",
-        null
-      ],
-      [
-        "android.permission.ACCESS_COARSE_LOCATION",
-        null
-      ],
-      [
-        "com.google.android.providers.gsf.permission.READ_GSERVICES",
-        null
-      ],
-      [
-        "com.huawei.android.launcher.permission.CHANGE_BADGE",
-        null
-      ],
-      [
-        "com.sonyericsson.home.permission.BROADCAST_BADGE",
-        null
-      ],
-      [
-        "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
-        null
-      ],
-      [
-        "com.motorola.launcher3.permission.UNREAD_BADGE",
-        null
-      ],
-      [
-        "android.permission.USE_FULL_SCREEN_INTENT",
-        null
-      ],
-      [
-        "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
-        null
-      ],
-      [
-        "android.permission.FOREGROUND_SERVICE_MICROPHONE",
-        null
-      ],
-      [
-        "android.permission.CREDENTIAL_MANAGER_SET_ALLOWED_PROVIDERS",
-        null
-      ],
-      [
-        "com.facebook.messaging.appwidget.homescreenwidget.META_AI_APP_WIDGET",
-        null
-      ],
-      [
-        "com.facebook.messaging.quicksnap.appwidget.QUICKSNAP_APP_WIDGET",
-        null
-      ],
-      [
-        "com.oculus.vrshell.BugReportBroadcastReceiverPermission",
-        null
-      ],
-      [
-        "android.permission.READ_PHONE_STATE",
-        null
-      ],
-      [
-        "android.permission.READ_BASIC_PHONE_STATE",
-        null
-      ],
-      [
-        "android.permission.FOREGROUND_SERVICE",
-        null
-      ],
-      [
-        "android.permission.FOREGROUND_SERVICE_PHONE_CALL",
-        null
-      ],
-      [
-        "android.permission.BLUETOOTH_CONNECT",
-        null
-      ],
-      [
-        "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
-        null
-      ],
-      [
-        "android.permission.CHANGE_WIFI_STATE",
-        null
-      ],
-      [
-        "android.permission.READ_EXTERNAL_STORAGE",
-        null
-      ],
-      [
-        "android.permission.USE_BIOMETRIC",
-        null
-      ],
-      [
-        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-        null
-      ],
-      [
-        "android.permission.FOREGROUND_SERVICE_LOCATION",
-        null
-      ],
-      [
-        "com.sec.android.provider.badge.permission.READ",
-        null
-      ],
-      [
-        "com.sec.android.provider.badge.permission.WRITE",
-        null
-      ],
-      [
-        "com.htc.launcher.permission.READ_SETTINGS",
-        null
-      ],
-      [
-        "com.htc.launcher.permission.UPDATE_SHORTCUT",
-        null
-      ],
-      [
-        "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
-        null
-      ],
-      [
-        "android.permission.FOREGROUND_SERVICE_CAMERA",
-        null
-      ],
-      [
-        "com.facebook.orca.permission.CREATE_SHORTCUT",
-        null
-      ],
-      [
-        "com.android.vending.BILLING",
-        null
-      ],
-      [
-        "android.permission.MANAGE_OWN_CALLS",
-        null
-      ],
-      [
-        "com.android.launcher.permission.INSTALL_SHORTCUT",
-        null
-      ],
-      [
-        "android.permission.DETECT_SCREEN_CAPTURE",
-        null
-      ],
-      [
-        "android.permission.DETECT_SCREEN_RECORDING",
-        null
-      ],
-      [
-        "android.permission.USE_FINGERPRINT",
-        null
-      ],
-      [
-        "com.facebook.orca.permission.RECEIVE_ADM_MESSAGE",
-        null
-      ],
-      [
-        "com.amazon.device.messaging.permission.RECEIVE",
-        null
-      ],
-      [
-        "com.nokia.pushnotifications.permission.RECEIVE",
-        null
-      ],
-      [
-        "android.permission.CAPTURE_VIDEO_OUTPUT",
-        null
-      ],
-      [
-        "com.google.android.c2dm.permission.RECEIVE",
-        null
-      ],
-      [
-        "com.facebook.receiver.permission.ACCESS",
-        null
-      ],
-      [
-        "com.facebook.orca.permission.CROSS_PROCESS_BROADCAST_MANAGER",
-        null
-      ],
-      [
-        "com.facebook.orca.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-        null
-      ],
-      [
-        "android.permission.QUERY_ALL_PACKAGES",
-        null
-      ]
-    ],
-    "uses-permission-sdk-23": [
-      [
-        "android.permission.READ_CALENDAR",
-        null
-      ],
-      [
-        "android.permission.WRITE_CALENDAR",
-        null
-      ],
-      [
-        "android.permission.BLUETOOTH_ADMIN",
-        null
-      ]
-    ],
-    "features": [],
-    "icons_src": {},
-    "icons": {},
-    "antiFeatures": [],
-    "packageName": "com.facebook.orca",
-    "versionCode": 342412030,
-    "name": "@7F14000B",
-    "versionName": "562.0.0.53.83",
-    "minSdkVersion": 28,
-    "targetSdkVersion": 36,
-    "nativecode": [
-      "arm64-v8a"
-    ],
-    "sig": "411b965af016ed0c9bfd9d3b047714fc",
-    "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
-    "size": 91465212,
-    "apkName": "Messenger-v562.0.0.53.83.apk",
-    "added": 1779844647.392837
+    "added": 1779863651.096541
   },
   "SoundCloud-v2026.04.30-release-patches-v1.30.0-dev.1.apk": {
     "hash": "eb334ad10bb96bdfe59c1d6889b61456dfa4fdfd43f876d05c7b885eb0a500df",
@@ -997,7 +615,7 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 44330128,
     "apkName": "SoundCloud-v2026.04.30-release-patches-v1.30.0-dev.1.apk",
-    "added": 1779844648.581591
+    "added": 1779863652.436834
   },
   "SoundCloud-v2026.05.15-release-patches-v1.32.1-dev.1.apk": {
     "hash": "c34808d856cc0dbd5209713e5f7fbb612986bb2ed1dce205448872babf88f01c",
@@ -1127,7 +745,7 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 49790429,
     "apkName": "SoundCloud-v2026.05.15-release-patches-v1.32.1-dev.1.apk",
-    "added": 1779844649.666626
+    "added": 1779863653.66713
   },
   "YouTube-v21.20.400-patches-v1.30.0-dev.4.apk": {
     "hash": "71826113e6e0ae83a74dd29354f6c384f3f5fb2b45d9310c3220d67293c15d4c",
@@ -1360,7 +978,7 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 98874970,
     "apkName": "YouTube-v21.20.400-patches-v1.30.0-dev.4.apk",
-    "added": 1779844654.179746
+    "added": 1779863658.943774
   },
   "YouTube-v21.21.80-patches-v1.30.0-dev.4.apk": {
     "hash": "1ecedaf56ae2bbbcc567ae7d70a5e5198938e312ae9d67ad8c240c405baa05a5",
@@ -1593,7 +1211,7 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 100539786,
     "apkName": "YouTube-v21.21.80-patches-v1.30.0-dev.4.apk",
-    "added": 1779844658.707452
+    "added": 1779863664.074745
   },
   "YouTube_Music-v9.19.50-patches-v1.30.0-dev.4.apk": {
     "hash": "c1365e93ff3abb6e816e7ecdd14496b25facda91d763cb8be923a504848ce758",
@@ -1759,7 +1377,7 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 78257727,
     "apkName": "YouTube_Music-v9.19.50-patches-v1.30.0-dev.4.apk",
-    "added": 1779844661.15994
+    "added": 1779863666.821237
   },
   "YouTube_Music-v9.20.52-patches-v1.30.0-dev.4.apk": {
     "hash": "57cf35528801371e5bd311f385fde63c1ef18fda9ca8298c3623ec7840f29385",
@@ -1925,6 +1543,6 @@
     "signer": "17f63dc8fb0a3a25744b1c825363ee2ef34bbd4e15535f2ee08e1ae9da1c0b16",
     "size": 71724834,
     "apkName": "YouTube_Music-v9.20.52-patches-v1.30.0-dev.4.apk",
-    "added": 1779844663.883375
+    "added": 1779863669.532146
   }
 }
